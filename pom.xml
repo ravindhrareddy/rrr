@@ -84,3 +84,16 @@
     </pluginManagement>
   </build>
 </project>
+
+<distributionManagement>
+    <repository>
+        <id>deployment</id>
+        <name>Internal Releases</name>
+        <url>http://18.212.160.209:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>deployment</id>
+        <name>Internal Snapshot Releases</name>
+        <url>http://18.212.160.209:8081/repository/mavensnap/</url>
+    </snapshotRepository>
+</distributionManagement>
